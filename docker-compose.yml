@@ -1,0 +1,12 @@
+version: '3'
+services:
+  air:
+    image: fk23/macbookair:v1
+    ports:
+      - "8000:80"
+   
+  pro:
+    image: fk23/macbookpro:v1
+    ports:
+      - "8001:80"
+
